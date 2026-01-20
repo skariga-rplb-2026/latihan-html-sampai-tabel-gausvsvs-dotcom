@@ -3,10 +3,13 @@
 
 <head>
     <title>FORM ISIAN</title>
+    <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
-    <h3>Form Isian</h3>
+
+    <h1 style="color: blueviolet;">Form Isian</h1>
     <form action="" method="post">
         <table>
             <tr>
@@ -48,7 +51,7 @@
                 <td> <input type="checkbox" name="hobby[]">Membaca <br>
                     <input type="checkbox" name="hobby[]">Bersepedah <br>
                     <input type="checkbox" name="hobby[]">Bermain Game <br>
-                    <input type="checkbox" name="hobby[]"><br>
+                    <input type="checkbox" name="hobby[]">Berkebun<br>
                 </td>
             </tr>
             <tr>
@@ -72,15 +75,16 @@
                 <td><input type="file" name="gambar"> </td>
             </tr>
             <tr align="Right">
-                <td colspan="2"><input type="button" value="KLIK ME!" onclick="alert('GOOD LUCK')">
-                    <input type="reset" value="RESET">
-                    <input type="submit" value="KIRIM">
+                <td colspan="2">
+                    <input type="button" value="CLICK ME!" class="btn klik" onclick="alert('GOOD LUCK')">
+                    <input type="reset" value="RESET" class="btn reset">
+                    <input type="submit" value="KIRIM" class="btn kirim">
                 </td>
 
             </tr>
         </table>
     </form>
-    
+
 </body>
 
 </html>

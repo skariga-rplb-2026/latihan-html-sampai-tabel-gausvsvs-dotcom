@@ -1,0 +1,50 @@
+        body {
+            background-color: #efadff;
+            color: rgb(99, 12, 99);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        input {
+            background-color: rgb(255, 169, 236);
+        }
+
+        .btn {
+            text-transform: uppercase;
+            padding: 5px 10px;
+            margin: 5px;
+            border-radius: 10px;
+            animation-name: gradasi;
+            animation-duration: 15s;
+        }
+        @keyframes gradasi{
+            from{
+                background-color: #efadff;
+
+            }
+            to{
+                background-color: aquamarine;
+            }
+        }
+        .btn:hover{
+            cursor: pointer;
+            background-color: #efadff;
+            color :black;
+            font-weight: 800;
+        }
+
+        .kirim {
+            background-color: rgb(118, 43, 153);
+            color: rgb(187, 128, 255);
+
+        }
+
+        .reset {
+            background-color: rgb(118, 43, 153);
+            color: rgb(187, 128, 255);
+        } 
+
+        .klik {
+            background-color: rgb(118, 43, 153);
+            color: rgb(187, 128, 255);
+           
+        }
