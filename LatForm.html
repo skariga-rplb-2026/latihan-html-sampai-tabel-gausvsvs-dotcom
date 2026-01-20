@@ -8,8 +8,8 @@
 <body>
     <h3>Latihan Form</h3>
     <form action="#" method="post">
-        Nama : <input type="text" nama="first_name" size="50"> <br>
-        Umur : <input type="number" name="umur"> <br>
+        Nama :  <input type="text" nama="first_name" size="50"> <br>
+        Umur :  <input type="number" name="umur"> <br>
         Tanngal : <input type="date" name="tanggal"> <br>
         Minggu : <input type="week" name="minggu"><br>
         Bulan : <input type="month" name="bulan"><br>
@@ -24,6 +24,28 @@
         Nomor Telp : <input type="tel" name="telp"><br>
         <input type="submit" value="Simpan"><br> <!--button-->
         <input type="reset" value="Batal"><br>
+        Hobby : <br>
+        <input type="checkbox" name="hobby[]">Membaca <br>
+        <input type="checkbox" name="hobby[]">Bersepedah <br>
+        <input type="checkbox" name="hobby[]">Bermain Game<br>
+        <input type="checkbox" name="hobby[]">Berkebun <br>
+        Jenis Kelamin : <br>
+        <input type="Radio" name="JenisKelamin[]">Laki-laki <br>
+        <input type="Radio" name="JenisKelamin[]"> Perempuan <br>
+        <input type="Radio" name="JenisKelamin[]"> Rahasia <br>
+        Kota Asal: <br>
+        <select name="Kota Asal"> <br>
+            <option value="malang">Malang</option> 
+            <option value="Surabaya">Surabaya</option> 
+            <option value="Jakarta">Jakarta</option> 
+            <option value="Batu">Batu</option> 
+        </select> <br>
+        Alamat Lengkap : <br>
+        <textarea name="alamat" cols="500" rows="7"></textarea> <br>
+        <!--Tipe button ada 3, bekerja dalam tag form-->
+        <input type="button" value="KLIK ME!" onclick="alert('GOOD LUCK')">
+        <input type="reset" value="RESET">
+        <input type="submit" value="KIRIM">
     </form>
 </body>
 </html>
