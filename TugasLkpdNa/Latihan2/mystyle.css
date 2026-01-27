@@ -1,0 +1,179 @@
+@charset "utf-8";
+
+body {
+    background-color: #ebbafc;
+    font-family: arial;
+}
+
+h2 {
+    color: rgb(27, 27, 48);
+    font-weight: bold;
+    letter-spacing: 0.4em;
+    margin-bottom: 1em;
+    text-transform: uppercase;
+    text-align: center;
+}
+.dttabel{
+    border-spacing: 0;
+    border-collapse: collapse;
+    vertical-align: middle;
+}
+
+.dttabel th {
+    padding: 5px 5px;
+    color: antiquewhite;
+    background-color: rgb(44, 2, 83);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.dttabel th:first-child {
+    border-left: 1px solid rgb(44, 2, 83);
+}
+.dttabel th:last-child{
+    border-right: 1px solid rgb(44, 2, 83);
+}
+.dttabel tr:nth-child(odd){
+    height: 25px;
+    color: rgb(44, 2, 83);
+    background-color: rgb(141, 189, 189);
+    font-weight: 600;
+}
+.dttabel tr:nth-child(even){
+    height: 25px;
+    color: rgb(44, 2, 83);
+    background-color: beige;
+}
+.dttabel tr:last-child{
+    border-bottom: 1px solid rgb(44, 2, 83);
+}
+.dttabel td:first-child{
+    border-left: 1px solid rgb(44, 2, 83);
+}
+.dttabel td:last-child{
+    border-right: 1px solid rgb(44, 2, 83);
+}
+.dttabel td:nth-child(1){
+    text-align: center;
+}
+.dttabel td:nth-child(2){
+    text-align: center;
+}
+.dttabel td:nth-child(4){
+    text-align: center;
+}
+.dttabel td:nth-child(5){
+    text-align: center;
+}
+.dttabel td:nth-child(8){
+    text-align: center;
+}
+.dttabel tbody tr:hover{
+    background: rgb(230, 228, 146);
+}
+a{
+    padding: 5px 15px 5px 15px;
+    background-color: rgb(44, 2, 83);
+    text-decoration: none;
+}
+a:link{
+    color: rgb(255, 234, 206);
+}
+a:visited{
+    color: rgb(255, 234, 206);
+}
+a:hover{
+    color: rgb(255, 253, 144);
+}
+a:active{
+    color: rgb(255, 253, 144);
+    font-weight: 600;
+    padding: 5px 14px 5px 13px;
+}
+.frtabel{
+    border-spacing: 0px;
+    border-collapse: collapse;
+    vertical-align: middle;
+}
+.frtabel caption{
+    padding: 5px 5px;
+    color: beige;
+    background-color: rgb(69, 0, 134);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    border: 1px solid rgb(44, 2, 83);
+}
+.frtabel td:nth-child(1){
+    text-align: right;
+    height: 25px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(170, 141, 189);
+    font-weight: 600;
+    padding: 3px 10px 3px 10px;
+}
+.frtabel td:nth-child(2){
+    text-align: left;
+    height: 25px;
+    color: rgb(0, 0, 0);
+    padding: 3px 10px 3px 10px;
+}
+.frtabel td:last-child{
+    border-bottom: 1px solid rgb(31, 4, 56);
+    border-right: rgb(31, 4, 56);
+}
+.frtabel tr:nth-child(5){
+    vertical-align: top;
+}
+input[type="text"]{
+    border: 0px;
+    height: 25px;
+    width: 100%;
+    background-color: #ebbafc;
+    color: rgb(0, 0, 0);
+}
+input[type="date"]{
+    border: 0px;
+    height: 25px;
+    width: 100%;
+    background-color: #ebbafc;
+    color: rgb(0, 0, 0);
+}
+input[type="tel"]{
+    border: 0px;
+    height: 25px;
+    width: 100%;
+    background-color: #ebbafc;
+    color: rgb(0, 0, 0);
+}
+input:focus{
+    background-color: rgb(218, 178, 255);
+    outline: 1px solid rgb(67, 4, 126);
+}
+textarea{
+    border: 0px;
+    height: 25px;
+    width: 100%;
+    background-color: #ebbafc;
+    color: rgb(0, 0, 0);
+    height: 100px;
+}
+textarea:focus{
+    background-color: rgb(192, 144, 238);
+    outline: 1px solid rgb(67, 4, 126);
+}
+input[type="submit"]{
+    background-color: rgb(69, 0, 134);
+    height: 25px;
+    width: 49%;
+    color: beige;
+    border: 0px;
+}
+input[type="reset"]{
+    background-color: rgb(69, 0, 134);
+    height: 25px;
+    width: 49%;
+    color: beige;
+    border: 0px;
+}
