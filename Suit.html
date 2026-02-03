@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Game</title>
+</head>
+
+<body>
+    <center>
+        <h1>Suit</h1>
+        <table width="500">
+            <tr>
+                <td>
+                    <h2>YOU</h2>
+                    <button onclick="main('batu')">BATU</button>
+                    <button onclick="main('gunting')">GUNTING</button>
+                    <button onclick="main('kertas')">KERTAS</button> <br>
+                    <img id="pil_user" src="img/batu.webp" width="100px">
+                </td>
+                <td>
+                    <h2>COM</h2>
+                    <img id="pil_com" src="img/batu.webp" width="100px">
+
+                </td>
+            </tr>
+            <tr align="center">
+                <td colspan="2">
+                <p id="hasil">HASIL</p>
+                <p id="Skor">SKOR USER: 0 | SKOR COM: 0 | SERI: 0</p>
+
+                </td>
+            </tr>
+        </table>
+        </center>
+        <script src="SuitScript.js"></script>
+</body>
+
+</html>
