@@ -1,0 +1,30 @@
+body{
+    background-color:#d2cbf7;
+}
+
+h2{
+    color:#4f46e5;
+    font-weight:bold;
+}
+
+.btn-indigo{
+    background-color:#818cf8;
+    color:white;
+    border:none;
+}
+
+.btn-indigo:hover{
+    background-color:#6366f1;
+    color:rgb(255, 255, 255);
+}
+
+.table-indigo thead{
+    background-color:#818cf8;
+    color:white;
+}
+
+.table-indigo tbody tr:hover td{
+    background-color:#50608f !important;
+    color:white;
+}
+
